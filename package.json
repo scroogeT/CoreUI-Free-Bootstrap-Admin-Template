@@ -6,7 +6,9 @@
   "homepage": "http://coreui.io",
   "github": "https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -37,5 +39,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mrholek/CoreUI-Free-Bootstrap-Admin-Template/issues"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.80.1"
   }
 }
