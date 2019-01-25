@@ -90,7 +90,7 @@
     "aurelia-templating-resources": "^1.1.1",
     "aurelia-templating-router": "aurelia/templating-router",
     "bluebird": "^3.4.6",
-    "bootstrap": "4.0.0-alpha.2",
+    "bootstrap": "4.0.0",
     "bootstrap-datepicker": "^1.6.1",
     "chart.js": "^2.4.0",
     "devbridge-autocomplete": "^1.2.27",
